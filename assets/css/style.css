@@ -4,7 +4,7 @@
 
 
 body {
-    background-color: lightsteelblue;
+    background-color: rgb(77, 70, 70);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .navbar{
@@ -12,7 +12,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
     display: inline-block;
-    background-color: lightseagreen;
+    background-color: rgb(22, 24, 24);
 }
 
 nav {
@@ -28,28 +28,35 @@ a {
 }
 
 h1 {
-    display: flex;
-    padding: 60px;
     color: #fff;
-    font-size: 55px;
+    font-size: 60px;
     float: left;
-    margin: 25px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 0 0 300px;
+    margin-left: 60px;
+
 }
 
-h2 {
-    color: white;
+.about-me h2 {
+    color: black;
     font-size: 55px;
-    padding: 20px;
     display: block;
-    margin: 35px;
     float: left;
-    margin-left: 80px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 40px;
 }
 
 .about-me {
-    width: 100%;
-    display: block;
-    height: 600px;
+    height: 800px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-width: 10px;
+    padding: 10px;
 }
 
 h3 {
@@ -58,7 +65,7 @@ h3 {
     font-size: 30px;
 }
 .project-boxes {
-  background-color: papayawhip;
+
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -70,47 +77,43 @@ h3 {
 
 .project-box-1 {
     border-style: solid;
-    border-width: 1px;
+    border-width: 10px;
     padding: 10px;
     flex: 0 0 300px;
-    box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
-    background-color:rosybrown;
+    background-color: white;
 
   
 }
 
 .project-box-2 {
     border-style: solid;
-    border-width: 1px;
+    border-width: 10px;
     padding: 10px;
     flex: 0 0 300px;
-    box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
-    background-color:rosybrown;
+    background-color:white;
 
   
 }
 
 .project-box-3 {
     border-style: solid;
-    border-width: 1px;
+    border-width: 10px;
     padding: 10px;
     flex: 0 0 300px;
-    box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
-    background-color:rosybrown;
+    background-color:white;
 
   
 }
 .project-box-4 {
     border-style: solid;
-    border-width: 1px;
+    border-width: 10px;
     padding: 10px;
     flex: 0 0 300px;
-    box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
-    background-color:rosybrown;
+    background-color:white;
 
   
 }
@@ -118,16 +121,15 @@ h3 {
 
 #about-me {
     height: 520px;
-    margin-top: 60px;
-    float: right;
-    margin-right: 100px;
-    
+    border-style: solid;
+    border-width: 10px;
 }
+
+
 
 #project-1 {
     height: 150px;
     width: 150px;
-    
 }
 
 #project-2 {
@@ -146,3 +148,13 @@ h3 {
     width: 150px;
 }
 
+p {
+    font-size: 40px;
+    
+}
+
+ul {
+
+    font-size: 40px;
+
+}
