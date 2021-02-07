@@ -89,8 +89,6 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
-
 }
 
 
@@ -167,4 +165,5 @@ p {
     padding: 15px;
     
 }
+
 
