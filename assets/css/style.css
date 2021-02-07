@@ -7,6 +7,7 @@ body {
     background-color: rgb(77, 70, 70);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .navbar{
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -38,25 +39,41 @@ h1 {
 
 }
 
-.about-me h2 {
-    color: black;
-    font-size: 55px;
-    display: block;
-    float: left;
+.about-me-title-bar {
     width: 100%;
-    margin: 20px;
-    padding: 20px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 10px;
+    margin: 30px;
+}
+
+h2 {
+    font-size: 55px;
+    float: left;
     margin-left: 40px;
 }
 
+ul {  
+    font-size: 28px;
+    float: right;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 24px;
+
+}
+
 .about-me {
-    height: 800px;
+    height: 900px;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
     border-width: 10px;
-    padding: 10px;
+    padding: 30px;
+    width: 100%;
 }
 
 h3 {
@@ -93,8 +110,6 @@ h3 {
     flex: 0 0 300px;
     margin: 20px;
     background-color:white;
-
-  
 }
 
 .project-box-3 {
@@ -104,9 +119,8 @@ h3 {
     flex: 0 0 300px;
     margin: 20px;
     background-color:white;
-
-  
 }
+
 .project-box-4 {
     border-style: solid;
     border-width: 10px;
@@ -114,17 +128,13 @@ h3 {
     flex: 0 0 300px;
     margin: 20px;
     background-color:white;
-
-  
 }
-
 
 #about-me {
     height: 520px;
     border-style: solid;
     border-width: 10px;
 }
-
 
 
 #project-1 {
@@ -150,11 +160,9 @@ h3 {
 
 p {
     font-size: 40px;
+    border-style: solid;
+    border-width: 10px;
+    padding: 15px;
     
 }
 
-ul {
-
-    font-size: 40px;
-
-}
