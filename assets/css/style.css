@@ -223,6 +223,7 @@ p {
     h2 {
       text-align: center;
       float: none;
+      margin: 0px;
     }
 }
   
@@ -231,6 +232,7 @@ p {
      h2 {
         text-align: center;
         float: none;
+        margin: 0px;
      }
     }
   
@@ -239,6 +241,7 @@ p {
     h2 {
         text-align: center;
         float: none;
+        margin: 0px;
     }
   }
  
