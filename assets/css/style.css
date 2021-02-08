@@ -192,57 +192,31 @@ p {
     }
   }
   
-  
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-    #about-me {
-      height: 420px;
-    }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    #about-me {
-      height: 320px;
-    }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    #about-me {
-      height: 200px;
-    }
-  }
 
   /* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-    li {
-      padding: 10px;
-      margin: 10px;
-      float: left;
-      margin-right: 45px;
+  @media screen and (max-width: 992px) {
+    ul {
+    font-size: 30px;
+    float: left;
   }
 }
   
   /* Large smartphones - navbar changes color */
   @media screen and (max-width: 768px) {
-    li {
-        padding: 10px;
-        margin: 10px;
-        float: left;
-        margin-right: 45px;
+    ul {
+    font-size: 30px;    
+    float: left;
     }
   }
   
   /* Small smartphones - image placeholders change color */
   @media screen and (max-width: 576px) {
-    li {
-        padding: 10px;
-        margin: 10px;
-        float: left;
-        margin-right: 45px;
+    ul {
+    font-size: 30px;
+    float: left;
     }
   }
+
   
   /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
