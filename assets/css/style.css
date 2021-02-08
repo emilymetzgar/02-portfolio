@@ -68,7 +68,6 @@ li {
 }
 
 .about-me {
-    height: 900px;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
@@ -170,33 +169,4 @@ p {
     
 }
 
-  /* Large smartphones (ipads in devtools) - about me height goes to 1000px */
-  @media screen and (max-width: 1359px) {
-    .about-me {
-       
-        border: none;
-    
-    
-      }
-  }
-
-    /* Large smartphones (ipads in devtools) - about me height goes to 1000px */
-    @media screen and (max-width: 1359px) {
-        p {
-           
-            font-size: 30px;
-    
-        
-        
-          }
-
-           /* Large smartphones (ipads in devtools) - about me height goes to 1000px */
-    @media screen and (max-width: 1171px) {
-        p {
-           
-          display: block;
-    
-        
-        
-          }
-      }
+ 
