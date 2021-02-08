@@ -213,4 +213,80 @@ p {
       height: 200px;
     }
   }
+
+  /* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    li {
+      padding: 10px;
+      margin: 10px;
+      float: left;
+      margin-right: 45px;
+  }
+}
   
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    li {
+        padding: 10px;
+        margin: 10px;
+        float: left;
+        margin-right: 45px;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    li {
+        padding: 10px;
+        margin: 10px;
+        float: left;
+        margin-right: 45px;
+    }
+  }
+  
+  /* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    h2 {
+      text-align: center;
+      float: none;
+    }
+}
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+     h2 {
+        text-align: center;
+        float: none;
+     }
+    }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    h2 {
+        text-align: center;
+        float: none;
+    }
+  }
+ 
+    
+  /* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    body {
+    background-color: grey;
+    }
+}
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+     body {
+        background-color: grey;
+     }
+    }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    body {
+        background-color: grey;
+    }
+  }
+ 
