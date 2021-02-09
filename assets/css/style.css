@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: rgb(77, 70, 70);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -40,6 +39,22 @@ h1 {
 
 }
 
+/* The about me section, flexbox that will wrap, flex, and space evenly */
+/* contains the about me title bar, about me image, and the about me paragraph flex boxes */
+
+.about-me {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  border-style: solid;
+  border-width: 10px;
+  padding: 30px;
+  margin: 10px;
+  background-color: lightslategrey;
+}
+
+
+/* The title bar, contains h2 and ul,li */
 .about-me-title-bar {
     width: 100%;
     display: inline-block;
@@ -49,12 +64,13 @@ h1 {
     background-color: whitesmoke;
 }
 
+/* about me title, will float left */
 h2 {
     font-size: 55px;
     float: left;
     margin-left: 40px;
 }
-
+/* contact info unordered list, will float right */
 ul {  
     font-size: 35px;
     float: right;
@@ -64,26 +80,28 @@ ul {
 li {
     display: inline-block;
     margin: 24px;
-
 }
 
-.about-me {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-evenly;
-    border-style: solid;
-    border-width: 10px;
-    padding: 30px;
-    margin: 10px;
-    background-color: lightslategrey;
-  
+/* about me image */
+#about-me {
+  height: 520px;
+  border-style: solid;
+  border-width: 10px;  
+}
+
+/* about me paragraph */
+p {
+  font-size: 40px;
+  border-style: solid;
+  border-width: 10px;
+  padding: 15px;
+  background-color: whitesmoke; 
 }
 
 
-/* The hero image */
+/* The hero image box, contains the main project*/
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("assets/images/heroimage.jpg")
+    background-image: url("assets/images/heroimage.jpg");
     background-size: cover;
     position: relative;
     display: flex;
@@ -93,7 +111,7 @@ li {
     background-position: center;
     margin: 50px;
   }
-
+/* The hero image*/
   .hero-image img {
       border-style: solid;
       border-width: 10px;
@@ -102,7 +120,7 @@ li {
       height: 400px;
   }
   
-  /* Place text in the middle of the image */
+  /* Place text in the middle of the hero image */
   .hero-text {
     text-align: center;
     position: absolute;
@@ -112,17 +130,17 @@ li {
   h3 {
     color: white;
     font-size: 90px;
-
 }
 
-  
+
+/*the smaller project boxes (cards) that will be underneath the hero (with the main project)*/  
+
 .project-boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
   }
-
 
 h4 {   
     font-size: 44px;
@@ -137,8 +155,6 @@ h4 {
     text-align: center;
     margin: 20px;
     background-color: lightslategrey;
-   
-
 }
 
 .project-box-3 {
@@ -147,8 +163,7 @@ h4 {
     flex: 0 0 450px;
     text-align: center;
     margin: 20px;
-     background-color: lightslategrey;
-    
+     background-color: lightslategrey;  
 }
 
 .project-box-4 {
@@ -161,22 +176,7 @@ h4 {
    
 }
  
-
-#about-me {
-    height: 520px;
-    border-style: solid;
-    border-width: 10px;
-   
-}
-
-p {
-    font-size: 40px;
-    border-style: solid;
-    border-width: 10px;
-    padding: 15px;
-    background-color: whitesmoke;
- 
-}
+/* project box (card) images, rounded borders */
 #project-2 {
     height: 170px;
     border-radius: 50%;
@@ -197,72 +197,72 @@ p {
 
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
+/* Tablets - paragraph font gets smaller */
+  @media screen and (max-width: 992px) {
     p {
       font: 20px;
     }
   }
   
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    p {
-      font: 20px;
+/* Large smartphones - paragraph font gets smaller */
+    @media screen and (max-width: 768px) {
+      p {
+        font: 20px;
     }
   }
   
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    p {
-      font: 20px;
+/* Small smartphones -  paragraph font gets smaller */
+    @media screen and (max-width: 576px) {
+      p {
+        font: 20px;
     }
   }
   
 
-  /* Tablets - header changes color */
-  @media screen and (max-width: 992px) {
-    ul {
-    font-size: 26px;
-    float: left;
+/* Tablets - - ul font gets smaller */
+    @media screen and (max-width: 992px) {
+      ul {
+        font-size: 26px;
+        float: left;
   }
 }
   
-  /* Large smartphones - navbar changes color */
+/* Large smartphones - ul font gets smaller */
   @media screen and (max-width: 768px) {
     ul {
-    font-size: 26px;    
-    float: left;
+      font-size: 26px;    
+      float: left;
     }
   }
   
-  /* Small smartphones - image placeholders change color */
+/* Small smartphones - ul font gets smaller */
   @media screen and (max-width: 576px) {
     ul {
-    font-size: 26px;
-    float: left;
+      font-size: 26px;
+      float: left;
     }
   }
 
   
-  /* Tablets - header changes color */
-@media screen and (max-width: 992px) {
+/* Tablets - contact information goes under about me title */
+  @media screen and (max-width: 992px) {
     h2 {
       text-align: center;
       float: none;
       margin: 0px;
-    }
+  }
 }
   
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-     h2 {
+  /* Large smartphones - contact information goes under about me title */
+    @media screen and (max-width: 768px) {
+      h2 {
         text-align: center;
         float: none;
         margin: 0px;
-     }
-    }
+  }
+}
   
-  /* Small smartphones - image placeholders change color */
+/* Small smartphones - contact information goes under about me title */
   @media screen and (max-width: 576px) {
     h2 {
         text-align: center;
@@ -271,133 +271,91 @@ p {
     }
   }
  
-    
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    h2 {
-        text-align: center;
-        float: none;
-        margin: 0px;
-    }
-  }
 
      
-  /* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-  body {
-  background-color: grey;
+/* Tablets - body changes color */
+  @media screen and (max-width: 992px) {
+    body {
+    background-color: grey;
   }
 }
 
-/* Large smartphones - navbar changes color */
+/* Large smartphones - body changes color */
 @media screen and (max-width: 768px) {
    body {
       background-color: grey;
    }
   }
 
+/* small smartphones - body changes color */
+  @media screen and (max-width: 576px) {
+    body {
+      background-color: grey;
+  }
+}
+
   
-    /* Tablets - header changes color */
-    @media screen and (max-width: 992px) {
-   
-      .hero-image img {
-        
+/* Tablets - hero image gets smaller*/
+  @media screen and (max-width: 992px) {
+    .hero-image img {
        height: 300px; 
-
-      }
   }
+}
     
-    /* Large smartphones - navbar changes color */
-    @media screen and (max-width: 768px) {
-      
-     
-      .hero-image img{
-        
-        height: 300px; 
-        
-    }
+/* Large smartphones -  hero image gets smaller*/
+  @media screen and (max-width: 768px) {
+    .hero-image img{
+      height: 300px;   
   }
+}
 
-        /* Small smartphones - image placeholders change color */
-        @media screen and (max-width: 576px) {
-        
-      
-          .hero-image img{
-            
-            height: 300px; 
-            
-      }
-    }
+/* Small smartphones -  hero image gets smaller*/
+  @media screen and (max-width: 576px) {
+    .hero-image img{
+      height: 300px;      
+  }
+}
     
-     /* Tablets - header changes color */
-     @media screen and (max-width: 992px) {
-   
-      a {
-        
+/* Tablets - a links under h1 lose margins and float to fit under h1*/
+  @media screen and (max-width: 992px) {
+    a {
       margin: 0px;
-     
       float: none;
-
-      }
   }
+}
     
-    /* Large smartphones - navbar changes color */
-    @media screen and (max-width: 768px) {
-      
-     
-      a {
-        
-      margin: 0px;
-      
-      float: none;
-        
-    }
-  }
-
-        /* Small smartphones - image placeholders change color */
-        @media screen and (max-width: 576px) {
-        
-      
-       a {
-            
-        margin: 0px;
-
-        float: none;
-      }
-    } 
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-   
-  h1 {
-    
- 
- 
-  float: none;
-
+/* Large smartphones -  a links under h1 lose margins and float to fit under h1*/
+  @media screen and (max-width: 768px) {
+    a { 
+      margin: 0px;  
+      float: none;    
   }
 }
 
-/* Large smartphones - navbar changes color */
-@media screen and (max-width: 768px) {
-  
- 
-  h1 {
-    
-
-  
-  float: none;
-    
-}
-}
-
-    /* Small smartphones - image placeholders change color */
+/* Small smartphones -  a links under h1 lose margins and float to fit under h1*/
     @media screen and (max-width: 576px) {
-    
-  
-   h1 {
-        
-   
+      a {
+        margin: 0px;
+        float: none;
+  }
+} 
+/* Tablets - h1 loses float to move closer to center */
+  @media screen and (max-width: 992px) {
+    h1 {
+      float: none;
+  }
+}
 
-    float: none;
+/* Large smartphones - h1 loses float to move closer to center */
+    @media screen and (max-width: 768px) {
+      h1 {
+        float: none;
+  }
+}
+
+/* Small smartphones -  h1 loses float to move closer to center */
+    @media screen and (max-width: 576px) {
+      h1 {
+        float: none;
   }
 } 
