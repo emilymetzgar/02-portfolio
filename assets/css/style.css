@@ -83,7 +83,7 @@ li {
 /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("./assets/images/hero.JPG");
+    background-image: url("assets/images/heroimage.jpg")
     background-size: cover;
     position: relative;
     display: flex;
