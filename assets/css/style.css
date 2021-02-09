@@ -46,6 +46,7 @@ h1 {
     border-style: solid;
     border-width: 10px;
     margin: 30px;
+    background-color: whitesmoke;
 }
 
 h2 {
@@ -74,6 +75,7 @@ li {
     border-width: 10px;
     padding: 30px;
     margin: 10px;
+    background-color: lightslategrey;
   
 }
 
@@ -134,6 +136,7 @@ h4 {
     flex: 0 0 450px;
     text-align: center;
     margin: 20px;
+    background-color: lightslategrey;
    
 
 }
@@ -144,6 +147,7 @@ h4 {
     flex: 0 0 450px;
     text-align: center;
     margin: 20px;
+     background-color: lightslategrey;
     
 }
 
@@ -153,6 +157,7 @@ h4 {
     flex: 0 0 450px;
     text-align: center;
     margin: 20px;
+    background-color: lightslategrey;
    
 }
  
@@ -169,6 +174,7 @@ p {
     border-style: solid;
     border-width: 10px;
     padding: 15px;
+    background-color: whitesmoke;
  
 }
 #project-2 {
@@ -290,68 +296,7 @@ p {
    }
   }
 
-/* Small smartphones - image placeholders change color */
-@media screen and (max-width: 576px) {
-  .project-box-2, .project-box-3, .project-box-4 {
-     
-    border-radius: 50%;
-    flex: 0 0 280px;
-    background-color: lightgray;
-  }
-}
-    
-  /* Tablets - header changes color */
-  @media screen and (max-width: 992px) {
-   
-    .project-box-2, .project-box-3, .project-box-4 {
-      
-      border-radius: 50%;
-      flex: 0 0 280px;
-      background-color: lightgray;
-    }
-}
   
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    
-    .project-box-2, .project-box-3, .project-box-4 {
-      
-      border-radius: 50%;
-      flex: 0 0 280px;
-      background-color: lightgray;
-     }
-    }
-  
-
-    
-  /* Tablets - header changes color */
-  @media screen and (max-width: 992px) {
-   
-    #project-2, #project-3, #project-4 {
-      
-    height: 85px;
-  
-    }
-}
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    
-    #project-2, #project-3, #project-4 {
-      
-      height: 85px;
-     }
-    }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    
-    #project-2, #project-3, #project-4 {
-      
-      height: 85px;
-    }
-  }
-
     /* Tablets - header changes color */
     @media screen and (max-width: 992px) {
    
@@ -370,8 +315,8 @@ p {
         
         height: 300px; 
         
-      }
-      }
+    }
+  }
 
         /* Small smartphones - image placeholders change color */
         @media screen and (max-width: 576px) {
@@ -381,41 +326,43 @@ p {
             
             height: 300px; 
             
-          }
-        }
-    
-  
-
-      /* Tablets - header changes color */
-      @media screen and (max-width: 992px) {
-   
-        h4 {
-          margin-top: 30px;
-          font-size: 20px;
-
-  
-        }
-    }
-      
-      /* Large smartphones - navbar changes color */
-      @media screen and (max-width: 768px) {
-        
-       
-        h4 {
-          margin-top: 30px;
-          font-size: 20px;
-
-          
-        }
-        }
-        /* Small smartphones - image placeholders change color */
-    @media screen and (max-width: 576px) {
-      
-    
-      h4 {
-        margin-top: 30px;
-        font-size: 20px;
-        
       }
     }
+    
+     /* Tablets - header changes color */
+     @media screen and (max-width: 992px) {
+   
+      a {
+        
+      margin: 0px;
+     
+      float: none;
+
+      }
+  }
+    
+    /* Large smartphones - navbar changes color */
+    @media screen and (max-width: 768px) {
+      
+     
+      a {
+        
+      margin: 0px;
+      
+      float: none;
+        
+    }
+  }
+
+        /* Small smartphones - image placeholders change color */
+        @media screen and (max-width: 576px) {
+        
+      
+       a {
+            
+        margin: 0px;
+
+        float: none;
+      }
+    } 
     
