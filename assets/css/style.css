@@ -83,7 +83,7 @@ li {
 /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("./assets/images/hero.jpg");
+    background-image: url("./assets/images/hero.JPG");
     background-size: cover;
     position: relative;
     display: flex;
@@ -365,4 +365,39 @@ p {
         float: none;
       }
     } 
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+   
+  h1 {
     
+ 
+ 
+  float: none;
+
+  }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  
+ 
+  h1 {
+    
+
+  
+  float: none;
+    
+}
+}
+
+    /* Small smartphones - image placeholders change color */
+    @media screen and (max-width: 576px) {
+    
+  
+   h1 {
+        
+   
+
+    float: none;
+  }
+} 
