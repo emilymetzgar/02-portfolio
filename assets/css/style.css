@@ -24,7 +24,6 @@ a {
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
-    float: right;
     text-align: center;
     padding: 16px;
     margin-top: 15px;
@@ -115,43 +114,46 @@ h3 {
  
   flex: 0 0 400px;
   text-align: center;
-  border-style: solid;
-  border-width: 2px;
+ 
 }
 
 .box-2 {
    
   flex: 0 0 400px;
   text-align: center;
-  border-style: solid;
-  border-width: 2px;
+ 
 }
 
 .box-3 {
 
   flex: 0 0 400px;
   text-align: center;
-  border-style: solid;
-  border-width: 2px;
+  
 }
  
 /* project box (card) images, rounded borders */
 #project-1 {
     height: 360px;
     border-radius: 50%;
- 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #project-2 {
     height: 360px;
     border-radius: 50%;
-   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #project-3 {
     height: 360px;
     border-radius: 50%;
-   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
@@ -161,9 +163,8 @@ h3 {
 @media screen and (max-width: 992px) {
   .container {
     display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 }
   
@@ -172,8 +173,7 @@ h3 {
   .container {
     display: flex;
     flex-direction: column;
-     justify-content: space-evenly;
-    text-align: center;
+    justify-content: space-evenly;
   }
 }
 
@@ -183,7 +183,6 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    text-align: center;
   }
 }
 
