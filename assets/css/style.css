@@ -52,6 +52,7 @@ h1 {
   background-color: lightslategrey;
   margin: 0px;
   margin-bottom: 110px;
+  padding: 30px;
 
 }
 
@@ -59,6 +60,7 @@ h1 {
     width: 100%;
     display: block;
     margin: 10px;
+    padding: 25px;
 }
 
 ul {  
@@ -78,9 +80,10 @@ li {
 
 /* about me image */
 #about-me {
-  height: 900px; 
+  height: 980px; 
   display: block;
   margin-top: 50px;
+  padding: 60px;
 
 }
 
@@ -94,6 +97,7 @@ li {
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
+    margin: 35px;
    
    
   }
@@ -128,21 +132,21 @@ h3 {
  
 /* project box (card) images, rounded borders */
 #project-1 {
-    height: 350px;
+    height: 360px;
     border-radius: 50%;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 #project-2 {
-    height: 350px;
+    height: 360px;
     border-radius: 50%;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 #project-3 {
-    height: 350px;
+    height: 360px;
     border-radius: 50%;
     margin-left: 20px;
     margin-right: 20px;
@@ -152,59 +156,31 @@ h3 {
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
   
-/* Tablets - hero image gets smaller*/
-@media screen and (max-width: 992px) {
-  .hero-image img {
-     height: 500px; 
-  }
-}
-  
-/* Large smartphones -  hero image gets smaller*/
-@media screen and (max-width: 768px) {
-  .hero-image img{
-    height: 500px;   
-  }
-}
-
-/* Small smartphones -  hero image gets smaller*/
-@media screen and (max-width: 576px) {
-  .hero-image img {
-     height: 500px; 
-  }
-}
-
-
-  
   /* Tablets - hero image gets smaller*/
 @media screen and (max-width: 992px) {
   .project-box-1, .project-box-2, .project-box-3{
-    flex: 0 0 225px;
-    text-align: center;
-    margin: 7px;
-    padding: 5px;   
-    margin-left: 7px;
+    flex: 0 0 250px;
+    
+  
   }
 }
   
 /* Large smartphones -  hero image gets smaller*/
 @media screen and (max-width: 768px) {
   .project-box-1, .project-box-3, .project-box-3{
-    flex: 0 0 225px;
-    text-align: center;
-    margin: 7px;
-    padding: 5px;
-    margin-left: 7px;   
+    flex: 0 0 250px;
+  
+    
+ 
   }
 }
 
 /* Small smartphones -  hero image gets smaller*/
 @media screen and (max-width: 576px) {
   .project-box-1, .project-box-2, .project-box-3{
-    flex: 0 0 225px;
-    text-align: center;
-    margin: 7px;
-    padding: 5px;  
-    margin-left: 7px; 
+    flex: 0 0 250px;
+    
+  
   }
 }
 
@@ -212,7 +188,7 @@ h3 {
   @media screen and (max-width: 992px) {
     #project-1, #project-2, #project-3{
      
-     height: 115px;
+     height: 135px;
     
     }
   }
@@ -221,7 +197,7 @@ h3 {
   @media screen and (max-width: 768px) {
     #project-1, #project-2, #project-3{
       
-      height: 115px;
+      height: 135px;
    
     }
   }
@@ -230,7 +206,7 @@ h3 {
   @media screen and (max-width: 576px) {
     #project-1, #project-2, #project-3{
      
-      height: 115px;
+      height: 135px;
       
     }
   }
