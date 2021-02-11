@@ -1,10 +1,13 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    
 }
 
 body {
-    background-color: rgb(77, 70, 70);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightslategray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    opacity: 0.9;
 }
 
 .navbar{
@@ -12,90 +15,72 @@ body {
     color: #ffffff;
     display: inline-block;
     background-color: rgb(22, 24, 24);
+    position: fixed;
+    margin-top: 0px;
 }
 
-nav {
-    float: right;
-}
-  
+
 a {
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
-    margin: 25px;
-    font-size: 45px;
-    margin-right: 35px;
-    padding: 30px;
+    float: right;
+    text-align: center;
+    padding: 16px;
+    margin-top: 15px;
+    margin: 10px;
 }
 
 h1 {
-    color: #fff;
-    font-size: 60px;
-    float: left;
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex: 0 0 300px;
-    margin-left: 60px;
-
+  color: #fff;
+  font-size: 40;
+  float: left;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 20px;
+ 
 }
 
-/* The about me section, flexbox that will wrap, flex, and space evenly */
-/* contains the about me title bar, about me image, and the about me paragraph flex boxes */
 
 .about-me {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
-  border-style: solid;
-  border-width: 10px;
-  padding: 30px;
-  margin: 10px;
+  width: 100%;
+  padding-top: 50px;
   background-color: lightslategrey;
+  margin: 0px;
+  margin-bottom: 110px;
+
 }
 
-
-/* The title bar, contains h2 and ul,li */
-.about-me-title-bar {
+.contact-info {
     width: 100%;
-    display: inline-block;
-    border-style: solid;
-    border-width: 10px;
-    margin: 30px;
-    background-color: whitesmoke;
+    display: block;
+    margin: 10px;
 }
 
-/* about me title, will float left */
-h2 {
-    font-size: 55px;
-    float: left;
-    margin-left: 40px;
-}
-/* contact info unordered list, will float right */
 ul {  
-    font-size: 35px;
-    float: right;
-    list-style: none;
+ 
+  list-style: none;
+  text-align: center;
+
 }
 
 li {
     display: inline-block;
-    margin: 24px;
+    text-align: center;
+    padding: 16px;
+    padding-bottom: 30px;
+    font-size: 26px;
 }
 
 /* about me image */
 #about-me {
-  height: 630px;
-  border-style: solid;
-  border-width: 10px;  
-}
+  height: 700px; 
+  display: block;
+  margin-top: 50px;
 
-/* about me paragraph */
-p {
-  font-size: 40px;
-  border-style: solid;
-  border-width: 10px;
-  padding: 15px;
-  background-color: whitesmoke; 
 }
 
 
@@ -105,8 +90,6 @@ p {
     background-size: cover;
     position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
     background-position: center;
     margin: 50px;
@@ -118,6 +101,7 @@ p {
       border-color: white;
       opacity: 0.9;
       height: 400px;
+      
   }
   
   /* Place text in the middle of the hero image */
@@ -127,7 +111,7 @@ p {
     color: white;
   }
 
-  h3 {
+  h2 {
     color: white;
     font-size: 90px;
 }
@@ -140,246 +124,163 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
+   
+   
   }
 
-h4 {   
-    font-size: 44px;
+h3 {   
+    padding: 10px;
     margin: 0px;
     margin-top: 20px;
+    text-align: center;
+    font-size: 28px;
+
     
 }
 .project-box-2 {
-    border-style: solid;
-    border-width: 10px;
-    flex: 0 0 450px;
-    text-align: center;
-    margin: 20px;
-    background-color: lightslategrey;
+ 
+  flex: 0 0 450px;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  
+  
 }
 
 .project-box-3 {
-    border-style: solid;
-    border-width: 10px;
+   
     flex: 0 0 450px;
     text-align: center;
-    margin: 20px;
-     background-color: lightslategrey;  
+    margin: 10px;
+    padding: 20px;
+   
 }
 
 .project-box-4 {
-    border-style: solid;
-    border-width: 10px;
+
     flex: 0 0 450px;
     text-align: center;
-    margin: 20px;
-    background-color: lightslategrey;
+    margin: 10px;
+    padding: 20px;
+
    
 }
  
 /* project box (card) images, rounded borders */
 #project-2 {
-    height: 170px;
+    height: 190px;
     border-radius: 50%;
-    margin: 0px;
+    margin-right: 80px;
+    
+    
 }
 
 #project-3 {
-    height: 170px;
+    height: 190px;
     border-radius: 50%;
-    margin: 0px;
+    margin-right: 80px;
+  
 }
 
 #project-4 {
-    height: 170px;
+    height: 190px;
     border-radius: 50%;
-    margin: 0px;
+    margin-right: 80px;
+   
 }
 
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
-/* Tablets - paragraph font gets smaller */
-  @media screen and (max-width: 992px) {
-    p {
-      font: 16px;
-    }
-  }
-  
-/* Large smartphones - paragraph font gets smaller */
-    @media screen and (max-width: 768px) {
-      p {
-        font: 16px;
-    }
-  }
-  
-/* Small smartphones -  paragraph font gets smaller */
-    @media screen and (max-width: 576px) {
-      p {
-        font: 16px;
-    }
-  }
-  
-
-/* Tablets - - ul font gets smaller */
-    @media screen and (max-width: 992px) {
-      ul {
-        font-size: 26px;
-        float: left;
-  }
-}
-  
-/* Large smartphones - ul font gets smaller */
-  @media screen and (max-width: 768px) {
-    ul {
-      font-size: 26px;    
-      float: left;
-    }
-  }
-  
-/* Small smartphones - ul font gets smaller */
-  @media screen and (max-width: 576px) {
-    ul {
-      font-size: 26px;
-      float: left;
-    }
-  }
-
-  
-/* Tablets - contact information goes under about me title */
-  @media screen and (max-width: 992px) {
-    h2 {
-      text-align: center;
-      float: none;
-      margin: 0px;
-  }
-}
-  
-  /* Large smartphones - contact information goes under about me title */
-    @media screen and (max-width: 768px) {
-      h2 {
-        text-align: center;
-        float: none;
-        margin: 0px;
-  }
-}
-  
-/* Small smartphones - contact information goes under about me title */
-  @media screen and (max-width: 576px) {
-    h2 {
-        text-align: center;
-        float: none;
-        margin: 0px;
-  }
-}
- 
-
-     
-/* Tablets - body changes color */
-  @media screen and (max-width: 992px) {
-    body {
-    background-color: grey;
-  }
-}
-
-/* Large smartphones - body changes color */
-@media screen and (max-width: 768px) {
-   body {
-      background-color: grey;
-   }
-  }
-
-/* small smartphones - body changes color */
-  @media screen and (max-width: 576px) {
-    body {
-      background-color: grey;
-  }
-}
-
   
 /* Tablets - hero image gets smaller*/
-  @media screen and (max-width: 992px) {
-    .hero-image img {
-       height: 300px; 
+@media screen and (max-width: 992px) {
+  .hero-image img {
+     height: 300px; 
   }
 }
-    
+  
 /* Large smartphones -  hero image gets smaller*/
-  @media screen and (max-width: 768px) {
-    .hero-image img{
-      height: 300px;   
+@media screen and (max-width: 768px) {
+  .hero-image img{
+    height: 300px;   
   }
 }
 
 /* Small smartphones -  hero image gets smaller*/
-  @media screen and (max-width: 576px) {
-    .hero-image img{
-      height: 300px;      
+@media screen and (max-width: 576px) {
+  .project-box-2, .project-box-3, .project-box-4{
+    flex: 0 0 300px;
+    text-align: center;
+    margin: 5;
+    padding: 10px;   
   }
 }
     
-/* Tablets - a links under h1 lose margins and float to fit under h1*/
-  @media screen and (max-width: 992px) {
-    a {
-      margin: 0px;
-      float: none;
-  }
-}
-    
-/* Large smartphones -  a links under h1 lose margins and float to fit under h1*/
-  @media screen and (max-width: 768px) {
-    a { 
-      margin: 0px;  
-      float: none;    
+  
+/* Small smartphones -  hero image gets smaller*/
+@media screen and (max-width: 576px) {
+  .hero-image img {
+     height: 255px; 
   }
 }
 
-/* Small smartphones -  a links under h1 lose margins and float to fit under h1*/
-    @media screen and (max-width: 576px) {
-      a {
-        margin: 0px;
-        float: none;
-  }
-} 
-/* Tablets - h1 loses float to move closer to center */
-  @media screen and (max-width: 992px) {
-    h1 {
-      float: none;
-  }
-}
-
-/* Large smartphones - h1 loses float to move closer to center */
-    @media screen and (max-width: 768px) {
-      h1 {
-        float: none;
-  }
-}
-
-/* Small smartphones -  h1 loses float to move closer to center */
-    @media screen and (max-width: 576px) {
-      h1 {
-        float: none;
-  }
-} 
-
-/* Tablets - h1 loses float to move closer to center */
+  /* Tablets - hero image gets smaller*/
 @media screen and (max-width: 992px) {
-  #about-me {
-    height: 700px;
-    border-radius: 100%;
+  .project-box-2, .project-box-3, .project-box-4{
+    flex: 0 0 225px;
+    text-align: center;
+    margin: 7px;
+    padding: 5px;   
+    margin-left: 7px;
+  }
+}
+  
+/* Large smartphones -  hero image gets smaller*/
+@media screen and (max-width: 768px) {
+  .project-box-2, .project-box-3, .project-box-4{
+    flex: 0 0 225px;
+    text-align: center;
+    margin: 7px;
+    padding: 5px;
+    margin-left: 7px;   
   }
 }
 
-/* Large smartphones - h1 loses float to move closer to center */
-  @media screen and (max-width: 768px) {
-    #about-me {
-      height: 700px;
-      border-radius: 100%;
-}
+/* Small smartphones -  hero image gets smaller*/
+@media screen and (max-width: 576px) {
+  .project-box-2, .project-box-3, .project-box-4{
+    flex: 0 0 300px;
+    text-align: center;
+    margin: 7px;
+    padding: 5px;  
+    margin-left: 7px; 
+  }
 }
 
-/* Small smartphones -  h1 loses float to move closer to center */
+  /* Tablets - hero image gets smaller*/
+  @media screen and (max-width: 992px) {
+    #project-2, #project-3, #project-4{
+     margin-right: 40px;
+     height: 115px;
+    
+    }
+  }
+    
+  /* Large smartphones -  hero image gets smaller*/
+  @media screen and (max-width: 768px) {
+    #project-2, #project-3, #project-4{
+      margin-right: 40px;
+      height: 115px;
+   
+    }
+  }
+  
+  /* Small smartphones -  hero image gets smaller*/
   @media screen and (max-width: 576px) {
-    #about-me {
-      height: 700px;
-      border-radius: 100%;
-}
-} 
+    #project-2, #project-3, #project-4{
+      margin-right: 40px;
+      height: 115px;
+      
+    }
+  }
+
