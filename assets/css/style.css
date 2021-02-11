@@ -19,6 +19,9 @@ body {
     margin-top: 0px;
 }
 
+.links {
+  float: right;
+}
 
 a {
     color: #ffffff;
