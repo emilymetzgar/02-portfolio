@@ -110,7 +110,7 @@ li {
     text-align: center;
     position: absolute;
     color: white;
-    margin-top: 70px;
+    margin-top: 80px;
     padding: 80px;
   }
 
@@ -142,29 +142,26 @@ h3 {
 }
 .project-box-2 {
  
-  flex: 0 0 500px;
+  flex: 0 0 400px;
   text-align: center;
-  margin: 10px;
-  padding: 10px;
   
   
 }
 
 .project-box-3 {
    
-    flex: 0 0 500px;
+    flex: 0 0 400;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
+
+
    
 }
 
 .project-box-4 {
 
-    flex: 0 0 500px;
+    flex: 0 0 400px;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
+
 
    
 }
@@ -201,35 +198,33 @@ h3 {
 /* Tablets - hero image gets smaller*/
 @media screen and (max-width: 992px) {
   .hero-image img {
-     height: 300px; 
+     height: 500px; 
   }
 }
   
 /* Large smartphones -  hero image gets smaller*/
 @media screen and (max-width: 768px) {
   .hero-image img{
-    height: 400px;   
+    height: 500px;   
   }
 }
 
-/* Small smartphones -  hero image gets smaller*/
-@media screen and (max-width: 576px) {
-  .project-box-2, .project-box-3, .project-box-4{
-    flex: 0 0 300px;
-    text-align: center;
-    margin: 5;
-    padding: 10px;   
-  }
-}
-    
-  
 /* Small smartphones -  hero image gets smaller*/
 @media screen and (max-width: 576px) {
   .hero-image img {
-     height: 255px; 
+     height: 500px; 
   }
 }
 
+  
+  /* Tablets - hero image gets smaller*/
+  @media screen and (max-width: 1020px) {
+    .project-box-2, .project-box-3, .project-box-4{
+      flex: 0 0 225px;
+      text-align: center;
+    }
+  }
+  
   /* Tablets - hero image gets smaller*/
 @media screen and (max-width: 992px) {
   .project-box-2, .project-box-3, .project-box-4{
@@ -255,7 +250,7 @@ h3 {
 /* Small smartphones -  hero image gets smaller*/
 @media screen and (max-width: 576px) {
   .project-box-2, .project-box-3, .project-box-4{
-    flex: 0 0 300px;
+    flex: 0 0 225px;
     text-align: center;
     margin: 7px;
     padding: 5px;  
@@ -263,10 +258,18 @@ h3 {
   }
 }
 
+@media screen and (max-width: 1020px) {
+  #project-2, #project-3, #project-4{
+     
+    height: 115px;
+   
+   }
+ }
+
   /* Tablets - hero image gets smaller*/
   @media screen and (max-width: 992px) {
     #project-2, #project-3, #project-4{
-     margin-right: 40px;
+     
      height: 115px;
     
     }
@@ -275,7 +278,7 @@ h3 {
   /* Large smartphones -  hero image gets smaller*/
   @media screen and (max-width: 768px) {
     #project-2, #project-3, #project-4{
-      margin-right: 40px;
+      
       height: 115px;
    
     }
@@ -284,9 +287,8 @@ h3 {
   /* Small smartphones -  hero image gets smaller*/
   @media screen and (max-width: 576px) {
     #project-2, #project-3, #project-4{
-      margin-right: 40px;
+     
       height: 115px;
       
     }
   }
-
