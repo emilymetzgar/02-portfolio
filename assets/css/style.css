@@ -85,39 +85,6 @@ li {
 }
 
 
-/* The hero image box, contains the main project*/
-.hero-image {
-    background-image: url("./assets/images/heroimage.jpg");
-    background-size: cover;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    background-position: center;
-    margin: 50px;
-  }
-/* The hero image*/
-  .hero-image img {
-      border-style: solid;
-      border-width: 10px;
-      border-color: white;
-      opacity: 0.9;
-      height: 650px;
-      
-  }
-  
-  /* Place text in the middle of the hero image */
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    color: white;
-    margin-top: 80px;
-    padding: 80px;
-  }
-
-  h2 {
-    color: white;
-    font-size: 90px;
-}
 
 
 /*the smaller project boxes (cards) that will be underneath the hero (with the main project)*/  
@@ -140,7 +107,7 @@ h3 {
 
     
 }
-.project-box-2 {
+.project-box-1 {
  
   flex: 0 0 400px;
   text-align: center;
@@ -148,7 +115,7 @@ h3 {
   
 }
 
-.project-box-3 {
+.project-box-2 {
    
     flex: 0 0 400;
     text-align: center;
@@ -157,7 +124,7 @@ h3 {
    
 }
 
-.project-box-4 {
+.project-box-3 {
 
     flex: 0 0 400px;
     text-align: center;
@@ -167,7 +134,7 @@ h3 {
 }
  
 /* project box (card) images, rounded borders */
-#project-2 {
+#project-1 {
     height: 350px;
     border-radius: 50%;
     margin-left: 20px;
@@ -177,14 +144,14 @@ h3 {
     
 }
 
-#project-3 {
+#project-2 {
     height: 350px;
     border-radius: 50%;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-#project-4 {
+#project-3 {
     height: 350px;
     border-radius: 50%;
     margin-left: 20px;
@@ -220,7 +187,7 @@ h3 {
   
   /* Tablets - hero image gets smaller*/
 @media screen and (max-width: 992px) {
-  .project-box-2, .project-box-3, .project-box-4{
+  .project-box-1, .project-box-2, .project-box-3{
     flex: 0 0 225px;
     text-align: center;
     margin: 7px;
@@ -231,7 +198,7 @@ h3 {
   
 /* Large smartphones -  hero image gets smaller*/
 @media screen and (max-width: 768px) {
-  .project-box-2, .project-box-3, .project-box-4{
+  .project-box-1, .project-box-3, .project-box-3{
     flex: 0 0 225px;
     text-align: center;
     margin: 7px;
@@ -242,7 +209,7 @@ h3 {
 
 /* Small smartphones -  hero image gets smaller*/
 @media screen and (max-width: 576px) {
-  .project-box-2, .project-box-3, .project-box-4{
+  .project-box-1, .project-box-2, .project-box-3{
     flex: 0 0 225px;
     text-align: center;
     margin: 7px;
@@ -253,7 +220,7 @@ h3 {
 
   /* Tablets - hero image gets smaller*/
   @media screen and (max-width: 992px) {
-    #project-2, #project-3, #project-4{
+    #project-1, #project-2, #project-3{
      
      height: 115px;
     
@@ -262,7 +229,7 @@ h3 {
     
   /* Large smartphones -  hero image gets smaller*/
   @media screen and (max-width: 768px) {
-    #project-2, #project-3, #project-4{
+    #project-1, #project-2, #project-3{
       
       height: 115px;
    
@@ -271,7 +238,7 @@ h3 {
   
   /* Small smartphones -  hero image gets smaller*/
   @media screen and (max-width: 576px) {
-    #project-2, #project-3, #project-4{
+    #project-1, #project-2, #project-3{
      
       height: 115px;
       
