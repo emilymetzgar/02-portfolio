@@ -15,8 +15,8 @@ Organizes data in a readable and accessible format that is simple and clean and 
 Navigation and links allow information to be easily accessed.
 
 
-![A screenshot of the application in desktop view](./assets/images/desktopscreen.png)
-![A screenshot of the application in mobile view](./assets/images/phonescreen.png)
+![A screenshot of the application in desktop view](./assets/images/desktopscreen.PNG)
+![A screenshot of the application in mobile view](./assets/images/phonescreen.PNG)
 
 
 
