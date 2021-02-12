@@ -19,7 +19,6 @@ Navigation and links allow information to be easily accessed.
 ![A screenshot of the application in mobile view](./assets/images/phonescreen.PNG)
 
 
-
 link to application: https://emilymetzgar.github.io/02-portfolio/
 
 
