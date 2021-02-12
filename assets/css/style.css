@@ -1,15 +1,18 @@
+
 * {
     box-sizing: border-box;
-    margin: 0px;
-    
+    margin: 0px; 
 }
 
+/*body will be slightly faded with opacity*/  
 body {
     background-color: lightslategray;
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     opacity: 0.9;
 }
 
+
+/*navbar at top of page will be in fixed position*/  
 .navbar{
     width: 100%;
     color: #ffffff;
@@ -19,10 +22,12 @@ body {
     margin-top: 0px;
 }
 
+/*links in navbar will float right*/  
 .links {
   float: right;
 }
 
+/*links in navbar will not be underlined and will be white*/  
 a {
     color: #ffffff;
     text-decoration: none;
@@ -44,18 +49,16 @@ h1 {
  
 }
 
-
+/*portfolio image will center in main box, contact info will display below*/  
 .about-me {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   padding-top: 60px;
-  background-color: lightslategrey;
   margin: 0px;
   margin-bottom: 110px;
   padding: 30px;
-
 }
 
 .contact-info {
@@ -64,13 +67,14 @@ h1 {
     padding-top: 90px;
 }
 
+/*no bullets will display on list*/  
 ul {  
- 
   list-style: none;
   text-align: center;
 
 }
 
+/*list items will display side by side*/  
 li {
     display: inline-block;
     text-align: center;
@@ -79,7 +83,7 @@ li {
     font-size: 30px;
 }
 
-/* about me image */
+/* about image */
 #about-me {
   height: 980px; 
   display: block;
@@ -89,10 +93,7 @@ li {
 }
 
 
-
-
-/*the smaller project boxes (cards) that will be underneath the hero (with the main project)*/  
-
+/*the container will display boxes in a flex row*/  
 .container {
     display: flex;
     flex-direction: row;
@@ -133,35 +134,26 @@ h3 {
   
 }
  
-/* project box (card) images, rounded borders */
+/* the box images, rounded borders */
 #project-1 {
     height: 360px;
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #project-2 {
     height: 360px;
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #project-3 {
     height: 360px;
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+/* Break points */
 
   
-  /* Tablets - hero image gets smaller*/
+  /* Tablets- container will flex from flex direction row, to column*/
 @media screen and (max-width: 992px) {
   .container {
     display: flex;
@@ -170,7 +162,7 @@ h3 {
   }
 }
   
-/* Large smartphones -  hero image gets smaller*/
+ /* Large Smartphone- container will flex from flex direction row, to column*/
 @media screen and (max-width: 768px) {
   .container {
     display: flex;
@@ -179,7 +171,7 @@ h3 {
   }
 }
 
-/* Small smartphones -  hero image gets smaller*/
+ /* Small Smartphone- container will flex from flex direction row, to column*/
 @media screen and (max-width: 576px) {
   .container {
     display: flex;
