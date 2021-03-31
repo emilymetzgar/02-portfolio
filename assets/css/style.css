@@ -20,11 +20,22 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-    color: white;
+
     letter-spacing: 0.2rem;
     padding-left: 15px;
     font-size: 18px;
     color: hotpink;
+}
+
+.dropdown-menu {
+    background: rgba(51, 49, 49, 0.6) !important; 
+  
+}
+
+.dropdown-item {
+    letter-spacing: 0.2rem;
+    font-size: 14px;
+    color: white;
 }
 
 .welcome {
@@ -80,7 +91,11 @@ p {
 
 }
 
-
+@media (max-width: 350px)
+{ .welcome {
+    display: none;
+}
+}
 
 @media (max-width: 575.98px)
 { 
@@ -117,7 +132,7 @@ p {
        
      .welcome h4 {
        
-        font-size: 12px;
+        display: none;
      }
    
 }
