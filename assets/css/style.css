@@ -14,6 +14,7 @@ body {
     font-weight: 600px;
     letter-spacing: 0.2rem;
     background: rgba(0,0,0,0.6) !important;
+
     
    
 }
@@ -29,10 +30,15 @@ body {
 .welcome {
     top: 40%;
     width: 100%;
+    max-width: 100%;
     position: absolute;
     color: rgb(39, 38, 38);
     letter-spacing: 0.2rem;
     background-size: cover;
+}
+
+.navbar .navbar-toggler {
+    color: hotpink;
 }
 
 .welcome h1 {
@@ -104,13 +110,15 @@ p {
         padding-top: 0px;
     }
 
-    .navbar .navbar-nav .nav-link {
-        font-size: 10px;
-    }
-    .welcome {
-        top: 15%;
+        .welcome h1 {
+   
+        font-size: 16px;
      }
        
+     .welcome h4 {
+       
+        font-size: 12px;
+     }
    
 }
 
@@ -123,10 +131,8 @@ p {
  }
 
  .welcome {
-    top: 20%;
+     top: 20%;
  }
-   
-    
 
 }
 
