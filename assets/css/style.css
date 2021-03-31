@@ -29,9 +29,8 @@ body {
 .welcome {
     top: 40%;
     width: 100%;
-    max-width: 100%;
     position: absolute;
-    color: white;
+    color: rgb(39, 38, 38);
     letter-spacing: 0.2rem;
     background-size: cover;
 }
@@ -71,6 +70,7 @@ p {
     color: hotpink;
     padding: 9px; 
     margin: 9px;
+    word-spacing: 0.2rem;
 
 }
 
