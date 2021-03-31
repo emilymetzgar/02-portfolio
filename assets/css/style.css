@@ -41,7 +41,6 @@ body {
 .welcome {
     top: 40%;
     width: 100%;
-    max-width: 100%;
     position: absolute;
     color: rgb(39, 38, 38);
     letter-spacing: 0.2rem;
@@ -153,7 +152,8 @@ p {
 
 
 
-@media (max-width: 991.98px) {
+@media (min-width: 992px) {
+
 
 
 }
