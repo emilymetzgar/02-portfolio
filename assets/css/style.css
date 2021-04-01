@@ -52,12 +52,12 @@ body {
     text-transform: lowercase;
 }
 
-#about-me h2 {
+h2 {
     font-size: 45px;
 
 }
 
-#about-me h3 {
+.container-about-me h3 {
     padding: 8px;
     margin: 8px;
     font-style: italic;
@@ -66,28 +66,25 @@ body {
 a {
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 a:hover {
     text-decoration: none;
     color: rgb(235, 15, 125);
-    font-size: 18px;
 }
 
 .container-projects h4 {
     font-size: 26px;
 }
+
 #main-btn {
     font-size: 30px;
 }
 
 p {
-
-    font-size: 20px;
+    font-size: 22px;
     color: rgb(235, 15, 125);
-    padding: 9px;
-    margin: 9px;
     word-spacing: 0.2rem;
     letter-spacing: 0.1rem;
 }
@@ -98,6 +95,7 @@ p {
     border-radius: 2%;
     border-style: groove;
 }
+
 .col-sm:hover {
     background: rgba(102, 152, 180, 0.356);
     border: 1px solid #d0d0d0;
@@ -116,9 +114,12 @@ p {
     }
 
     p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
+    a {
+        font-size: 18px;
+    }
     #main-btn {
         font-size: 18px;
     }
