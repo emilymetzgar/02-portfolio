@@ -88,8 +88,8 @@ a:hover {
 p {
     font-size: 22px;
     color: rgb(235, 15, 125);
-    word-spacing: 0.2rem;
-    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
 }
 
 .col-sm {
