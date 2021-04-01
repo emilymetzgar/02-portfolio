@@ -14,16 +14,16 @@ body {
     font-size: 14px;
     font-weight: 600px;
     letter-spacing: 0.2rem;
-    background:rgba(51, 49, 49, 0.6) !important;
-    color:  rgb(235, 15, 125);
+    background: rgba(51, 49, 49, 0.6) !important;
+    color: rgb(235, 15, 125);
 }
 
-.navbar .navbar-nav{
+.navbar .navbar-nav {
 
     letter-spacing: 0.2rem;
     padding-left: 15px;
     font-size: 18px;
-    color:  rgb(235, 15, 125);
+    color: rgb(235, 15, 125);
 }
 
 .dropdown-menu {
@@ -46,7 +46,8 @@ body {
 }
 
 .nav-link {
-    color: rgb(235, 15, 125); ;
+    color: rgb(235, 15, 125);
+    ;
 }
 
 
@@ -159,8 +160,7 @@ p {
     }
 }
 
-@media (max-width: 767.98px) {
-
+@media (max-width: 750.98px) {
 
     .navbar {
         letter-spacing: 0.1rem;
@@ -170,7 +170,18 @@ p {
     .welcome {
         top: 20%;
     }
-
 }
 
-@media (min-width: 992px) {}
+@media (max-width: 950px) {
+
+    .welcome {
+        top: 20%;
+    }
+}
+
+@media (max-width: 997px) {
+
+    .welcome {
+        top: 20%;
+    }
+}
