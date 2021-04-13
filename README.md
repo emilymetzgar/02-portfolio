@@ -17,7 +17,7 @@ Navigation and links allow information to be easily accessed.
 
 ![A screenshot of the application in desktop view](./assets/images/screenshot.PNG)
 
-link to application: https://emilymetzgar.github.io/emilymetzgar/
+link to application: https://emilymetzgar.github.io/emilymetzgar-portfolio/
 
 
 ## Credits
