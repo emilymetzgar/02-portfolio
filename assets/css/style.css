@@ -105,6 +105,10 @@ p {
     opacity: 0.8;
 }
 
+#main-project:hover {
+    opacity: 0.8;
+}
+
 @media (max-width: 350px) {
     .welcome {
         display: none;
